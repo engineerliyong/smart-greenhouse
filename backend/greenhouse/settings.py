@@ -25,8 +25,11 @@ SECRET_KEY = 'django-insecure-mz!2+ca6ka(4+r#s6-$5&uhxjt=xl10-h+(15w=kwofk0)4ty)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+    "relish-maturity-papaya.ngrok-free.dev",
+]
 
 # Application definition
 
